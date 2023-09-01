@@ -27,13 +27,31 @@
 }
 
 .cell-contet {
-  background: linear-gradient(rgb(164, 30, 190), rgb(236, 235, 235) 92%);
   padding: 500px 280px;
   max-width: 500px;
   border-radius: 60px;
   border: 5px solid rgb(105, 102, 102);
   position: relative;
+  animation: tela-animada 4s infinite;
 }
+@keyframes tela-animada {
+  0% {
+    background-color: darkmagenta;
+  }
+  50% {
+    background-color: blueviolet;
+  }
+  75% {
+    background-color: darkorchid;
+  }
+  85% {
+    background-color: fuchsia;
+  }
+  100% {
+    background-color: darkmagenta;
+  }
+}
+
 .item1 {
   position: absolute;
   padding: 34px 150px;
@@ -88,5 +106,5 @@
 .cell-flex a {
   text-decoration: none;
   font-size: 30px;
-  color: black;
+  color: white;
 }
