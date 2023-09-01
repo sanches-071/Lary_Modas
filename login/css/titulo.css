@@ -1,0 +1,23 @@
+.titulo-contet {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background-color: black;
+}
+.titulo-link {
+  position: absolute;
+  left: 10px;
+}
+.titulo-link a {
+  text-decoration: none;
+  color: white;
+  border: 2px solid white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.titulo h1 {
+  color: white;
+  font-size: 40px;
+}
