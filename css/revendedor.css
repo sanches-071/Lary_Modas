@@ -1,0 +1,47 @@
+.revendedor-contet {
+  background-color: black;
+  padding: 40px;
+  position: relative;
+  top: 80px;
+  height: 1200px;
+}
+.revendedor-contet h1 {
+  font-size: 80px;
+  color: white;
+}
+.revendedor-input {
+  position: relative;
+  top: 40px;
+  left: 30px;
+}
+
+.revendedor-input label {
+  display: block;
+  color: white;
+  font-size: 40px;
+}
+.revendedor-input input {
+  padding: 10px 140px 10px 10px;
+  font-size: 30px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  background-color: rgb(63, 61, 61);
+}
+.revendedor-contet button {
+  position: absolute;
+  padding: 20px;
+  font-size: 30px;
+  left: 750px;
+  bottom: 850px;
+  border-radius: 20px;
+  background-color: blueviolet;
+  border: none;
+}
+.video-contet {
+  position: absolute;
+  left: 145px;
+}
+.tutorial-contet {
+  position: relative;
+  top: 60px;
+}

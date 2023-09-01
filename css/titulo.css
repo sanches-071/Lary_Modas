@@ -1,0 +1,37 @@
+.titulo-color {
+  background-color: black;
+  padding: 70px;
+  position: relative;
+}
+
+.titulo-contet {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 0 auto;
+  justify-content: center;
+}
+.titulo-contet h1 {
+  font-size: 90px;
+  position: relative;
+  left: 67px;
+  color: white;
+}
+.titulo-flex {
+  display: flex;
+  gap: 25px;
+  margin-top: 80px;
+  list-style: none;
+}
+.titulo-flex li {
+  position: relative;
+  right: 55px;
+}
+.titulo-flex li a {
+  text-decoration: none;
+  font-size: 40px;
+  color: white;
+  background-color: rgb(19, 18, 18);
+  padding: 20px;
+  border-radius: 10px;
+}
